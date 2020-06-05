@@ -1,0 +1,18 @@
+/* Generali */
+body {
+font-family: 'Roboto', sans-serif;
+padding-left: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#verde {
+  color: green;
+}
+
+#rosso {
+  color: red;
+}
+/* fine generali */
