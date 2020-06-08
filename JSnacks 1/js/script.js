@@ -8,19 +8,19 @@ var risultatoTesto = document.getElementById('risultato-testo');
 
 //check lunghezza
 if (lunghezzaPrimaParola > lunghezzaSecondaParola) {
-  risultato.innerHTML+= '<li>' + secondaParola
-  risultato.innerHTML+= '<li>' + primaParola
+  risultato.innerHTML += '<li>' + secondaParola
+  risultato.innerHTML += '<li>' + primaParola
   risultatoTesto.innerHTML = ("La parola più corta è " + secondaParola);
 }
 else if (lunghezzaPrimaParola < lunghezzaSecondaParola) {
-  risultato.innerHTML+= '<li>' + primaParola
-  risultato.innerHTML+= '<li>' + secondaParola
+  risultato.innerHTML += '<li>' + primaParola
+  risultato.innerHTML += '<li>' + secondaParola
   risultatoTesto.innerHTML = ("La parola più corta è " + primaParola);
 
 }
 
 else {
-  risultato.innerHTML+= '<li>' + primaParola
-  risultato.innerHTML+= '<li>' + secondaParola
+  risultato.innerHTML += '<li>' + primaParola
+  risultato.innerHTML += '<li>' + secondaParola
   risultatoTesto.innerHTML = ("Le parole sono lunghe uguali");
 }

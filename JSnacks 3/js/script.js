@@ -6,7 +6,7 @@ while (nomeInvitato.length <= 0) {
   nomeInvitato = prompt("Allora? Mi vuole dire il suo cognome?");
 }
 
-for (var i = 0; i< invitati.length; i++) {
+for (var i = 0; i < invitati.length; i++) {
   if (nomeInvitato === invitati[i]) {
     invitatoConfermato = true;
   }

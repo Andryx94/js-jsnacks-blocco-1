@@ -22,7 +22,7 @@ var cicloWhile = document.getElementById('ciclo-while');
 while (x<5) {
   numero = parseInt(prompt("Dimmi un numero (ciclo while)"));
   sommaNumero += numero;
-  x+= 1;
+  x += 1;
 }
 
 cicloWhile.innerHTML = ("La somma del ciclo while è: " + sommaNumero);

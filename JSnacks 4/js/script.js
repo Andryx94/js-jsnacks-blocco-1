@@ -7,8 +7,8 @@ while (numero.length != 4 || isNaN(numero)) {
 
 var numeroArray = numero.split("");
 
-for (var i=0; i< numeroArray.length; i++) {
-  somma+= parseInt(numeroArray[i]);
+for (var i = 0; i < numeroArray.length; i++) {
+  somma += parseInt(numeroArray[i]);
 }
 
 alert("La somma di tutte le cifre è " + somma);
